@@ -1,6 +1,14 @@
 aid: nbc
-url: https://raw.githubusercontent.com/api-evangelist/nbc/refs/heads/main/apis.yml
 name: NBC
+description: >-
+  NBC (National Broadcasting Company) is a major American commercial broadcast
+  television network and a subsidiary of Comcast through NBCUniversal. NBC
+  produces news (NBC News, Today), entertainment, late-night, and sports
+  programming (Sunday Night Football, Olympic Games). NBC and parent company
+  NBCUniversal do not publish a public developer portal. Programmatic
+  advertising APIs (NBCUniversal One Platform) and streaming partner
+  integrations (Peacock) are offered only through direct sales relationships
+  rather than self-serve developer signup.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -8,11 +16,20 @@ tags:
   - Broadcasting
   - Television
   - Entertainment
-description: 'A major American commercial broadcast television network and a subsidiary of Comcast through NBCUniversal. Produces news, entertainment, and sports programming including the Today Show and Sunday Night Football.'
+  - Fortune 500
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/nbc/refs/heads/main/apis.yml
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
-    url: https://www.walmart.com/
+    url: https://www.nbc.com/
+  - type: ParentCompany
+    url: https://www.nbcuniversal.com/
+  - type: Advertising
+    url: https://together.nbcuni.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
