@@ -24,6 +24,10 @@ modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/nbc-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/nbc-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/nbcnews
   - type: LinkedIn
