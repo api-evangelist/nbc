@@ -42,10 +42,12 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/nbc/refs/heads/main/apis.yml
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://www.nbc.com/blog
+    type: Blog
   - type: VulnerabilityDisclosure
     url: security/nbc-vulnerability-disclosure.yml
   - type: DomainSecurity
